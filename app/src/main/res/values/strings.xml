@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MeetNote</string>
+    <string name="onboarding_welcome">WELCOME TO MEETNOTE</string>
+    <string name="onboarding_title">The smarter way to network.</string>
+    <string name="onboarding_description">Share, scan, and track — all without exchanging numbers.</string>
+    <string name="onboarding_feature1_title">Share your card instantly</string>
+    <string name="onboarding_feature1_desc">Your personal QR code, always in your pocket.</string>
+    <string name="onboarding_feature2_title">Save people you meet</string>
+    <string name="onboarding_feature2_desc">Scan any QR to capture contacts in one tap.</string>
+    <string name="onboarding_feature3_title">View your interactions</string>
+    <string name="onboarding_feature3_desc">Everyone you\'ve connected with, in one clean list.</string>
+    <string name="onboarding_button_text">Get Started</string>
+    <string name="onboarding_footer_text">I already have an account</string>
+
+    <string name="profile_setup_title">SETUP</string>
+    <string name="profile_setup_subtitle">Your Profile</string>
+    <string name="profile_setup_full_name">FULL NAME</string>
+    <string name="profile_setup_phone_number">PHONE NUMBER</string>
+    <string name="profile_setup_email_address">EMAIL ADDRESS</string>
+    <string name="profile_setup_organization">ORGANIZATION</string>
+    <string name="profile_setup_role">ROLE</string>
+    <string name="profile_setup_placeholder_name">e.g. Jane Appleseed</string>
+    <string name="profile_setup_placeholder_phone">+1 (555) 000-0000</string>
+    <string name="profile_setup_placeholder_email">jane@example.com</string>
+    <string name="profile_setup_placeholder_org">Company or institution</string>
+    <string name="profile_setup_placeholder_role">Select your role</string>
+    <string name="profile_setup_save">Save Profile</string>
+    <string name="profile_setup_disclaimer">Your information is kept private and will only be used within your organization.</string>
+
+    <string name="app_title">Remember Every Person You Meet</string>
+
+    <string name="app_subtitle">Capture who you meet and why it matters, without breaking the moment.</string>
+</resources>
