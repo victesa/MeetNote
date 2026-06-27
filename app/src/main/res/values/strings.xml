@@ -1,16 +1,20 @@
 <resources>
     <string name="app_name">MeetNote</string>
-    <string name="onboarding_welcome">WELCOME TO MEETNOTE</string>
-    <string name="onboarding_title">The smarter way to network.</string>
-    <string name="onboarding_description">Share, scan, and track — all without exchanging numbers.</string>
-    <string name="onboarding_feature1_title">Share your card instantly</string>
-    <string name="onboarding_feature1_desc">Your personal QR code, always in your pocket.</string>
-    <string name="onboarding_feature2_title">Save people you meet</string>
-    <string name="onboarding_feature2_desc">Scan any QR to capture contacts in one tap.</string>
-    <string name="onboarding_feature3_title">View your interactions</string>
-    <string name="onboarding_feature3_desc">Everyone you\'ve connected with, in one clean list.</string>
-    <string name="onboarding_button_text">Get Started</string>
-    <string name="onboarding_footer_text">I already have an account</string>
+
+
+    <string name="onboarding_title">Connect instantly with one scan</string>
+    <string name="onboarding_description">Share your work profile or social identity by scanning a QR code. No typing, no friction, just real connections.</string>
+
+    <string name="onboarding2_title">Stop forgetting who you met.</string>
+    <string name="onboarding2_description">MeetNote links every new contact to the time, place, and context of your meeting.</string>
+    <string name="onboarding2_button_next">Next</string>
+    <string name="onboarding2_event1_title">School PTA Meeting</string>
+    <string name="onboarding2_event1_time">5:00 PM · MIT School</string>
+    <string name="onboarding2_event2_title">Doctor Appointment</string>
+    <string name="onboarding2_event2_time">11:30 AM · Apollo</string>
+    <string name="onboarding2_task1">Scan QR code to connect</string>
+    <string name="onboarding2_badge_today">Today</string>
+    <string name="onboarding2_badge_tomorrow">Tomorrow</string>
 
     <string name="profile_setup_title">SETUP</string>
     <string name="profile_setup_subtitle">Your Profile</string>
@@ -27,7 +31,34 @@
     <string name="profile_setup_save">Save Profile</string>
     <string name="profile_setup_disclaimer">Your information is kept private and will only be used within your organization.</string>
 
+    <string name="profile_setup_step">STEP 1 OF 2</string>
+    <string name="profile_setup_step_2">STEP 2 OF 2</string>
+    <string name="profile_setup_title_new">Set Up Your\nWork Profile</string>
+    <string name="profile_setup_title_social">Set Up Your\nSocial Profile</string>
+    <string name="profile_setup_subtitle_new">Let\'s get your professional identity ready. You can skip this for now.</string>
+    <string name="profile_setup_subtitle_social">Add your social identity to connect with people around you. Feel free to skip.</string>
+    <string name="profile_setup_skip">Skip for now</string>
+    <string name="profile_setup_skip_now">Skip for now</string>
+    <string name="profile_setup_label_position">POSITION</string>
+    <string name="profile_setup_placeholder_position">Lead Designer</string>
+    <string name="profile_setup_placeholder_org_new">Acme Inc.</string>
+    <string name="profile_setup_button_continue">Continue to Social Profile</string>
+    <string name="profile_setup_social_links">SOCIAL LINKS</string>
+    <string name="profile_setup_add_link">Add social link</string>
+    <string name="profile_setup_link_type">Platform</string>
+    <string name="profile_setup_link_url">URL or Username</string>
+    <string name="social_linkedin">LinkedIn</string>
+    <string name="social_twitter">Twitter/X</string>
+    <string name="social_pinterest">Pinterest</string>
+    <string name="social_website">Website</string>
+    <string name="social_instagram">Instagram</string>
+
     <string name="app_title">Remember Every Person You Meet</string>
 
     <string name="app_subtitle">Capture who you meet and why it matters, without breaking the moment.</string>
+
+    <string name="home_greeting">Good evening,</string>
+    <string name="home_recent_contacts">Recent Contacts</string>
+    <string name="home_professional_profile">PROFESSIONAL PROFILE</string>
+    <string name="home_social_profile">SOCIAL PROFILE</string>
 </resources>

@@ -12,6 +12,17 @@ composeBom = "2026.02.01"
 roomVersion = "2.8.4"
 viewModelVersion = "2.10.0"
 koinVersion = "4.2.1"
+coil = "3.4.0"
+zxingMatrix = "3.5.3"
+zxingDisplay = "4.3.0"
+coroutinesTestVersion = "1.7.3"
+mockkVersion = "1.13.8"
+datastore = "1.2.1"
+splashScreen = "1.0.1"
+uiGraphics = "1.11.2"
+composeIcons = "1.7.7"
+desugaringVersion = "2.0.2"
+navigationCompose = "2.8.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -41,6 +52,33 @@ android-viewModel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-
 koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koinVersion"}
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koinVersion"}
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koinVersion"}
+
+#Coil
+coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil"}
+
+#Zing
+zxing-matrix = { group = "com.google.zxing", name = "core", version.ref = "zxingMatrix"}
+zxing-display = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "zxingDisplay"}
+
+#Test
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutinesTestVersion" }
+mockk-test = { group = "io.mockk", name = "mockk", version.ref = "mockkVersion"}
+
+#DataStore
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+
+#SplashScreen
+splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreen" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics", version.ref = "uiGraphics" }
+
+#JetpackCompose Icon
+jetpack-compose-icon = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "composeIcons" }
+
+#Desugaring
+desugaring = { group = "com.android.tools", name = "desugar_jdk_libs_nio", version.ref = "desugaringVersion" }
+
+#Navigation
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

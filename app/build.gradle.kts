@@ -18,6 +18,7 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+        multiDexEnabled = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -32,12 +33,14 @@ android {
         }
     }
     compileOptions {
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
     buildFeatures {
         compose = true
     }
+
 }
 
 dependencies {
@@ -49,6 +52,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.ui.graphics)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
@@ -69,4 +73,32 @@ dependencies {
     implementation(libs.koin.compose)
     implementation(libs.koin.android)
     implementation(libs.koin.core)
+
+    //Coil
+    implementation(libs.coil.compose)
+
+    //Zxing
+    implementation(libs.zxing.matrix)
+    implementation(libs.zxing.display)
+
+    //Test
+    testImplementation(libs.coroutines.test)
+    testImplementation(libs.mockk.test)
+
+    //Datastore
+    implementation(libs.datastore.preferences)
+
+    //SplashScreen
+    implementation(libs.splashscreen)
+
+    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
+
+    //Compose Icons
+    implementation(libs.jetpack.compose.icon)
+
+    //Desugaring
+    coreLibraryDesugaring(libs.desugaring)
+
+    //Navigation
+    implementation(libs.androidx.navigation.compose)
 }

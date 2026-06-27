@@ -1,7 +1,8 @@
 package com.victorkirui.meetnote.repository
 
-import com.victorkirui.meetnote.data.MetPerson
-import com.victorkirui.meetnote.data.MetPersonDao
+/*
+import com.victorkirui.meetnote.data.local.dao.MetPersonDao
+import com.victorkirui.meetnote.data.local.entity.MetPerson
 import kotlinx.coroutines.flow.Flow
 
 class MetPersonRepository(private val metPersonDao: MetPersonDao) {
@@ -22,3 +23,4 @@ class MetPersonRepository(private val metPersonDao: MetPersonDao) {
         metPersonDao.delete(metPerson)
     }
 }
+*/

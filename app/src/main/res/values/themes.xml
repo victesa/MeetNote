@@ -2,4 +2,11 @@
 <resources>
 
     <style name="Theme.MeetNote" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MeetNote.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/app_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.MeetNote</item>
+    </style>
+
 </resources>
